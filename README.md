@@ -11,8 +11,8 @@ Split pictures with the technique of the moving window.
 Instructions:
 
 1. Unzip the content of the ZIP file.
-2. Put your high images in the "source" folder. There are already some test images you can split to tet the software.
-3. Run Matlab and set the current directory to the directory you unzipped.
+2. Put some high resolution images in the "source" folder. Some test images are already in the folder.
+3. Run Matlab and set the current directory where splitme is located.
 4. Write "splitt" on the command line. This will open the GUI with the first picture to split.
 
 
@@ -29,7 +29,7 @@ At the end you have two options:
 
 1. Skipping the picture: the image is simply transferred to "skipped" folder. You can do this for many reasons; the image has bad quality, the size is not enough, the pictures doesn't really change between 0% and 100%, etc.
 
-2. Accepting the picture: the image will be processed slowly (it needs computational power). A directory with the image name will be created in "target" directory. Four other directories will be created for different resolutions with the resulting images in. Each slice will have the contrast adjusted before being resized and saved. This is important to avoid different contrasts for different steps.
+2. Accepting the picture: the image will be processed slowly (it needs computational power). A directory with the image name will be created in "target" directory. Four other directories will be created for different resolutions with the resulting images in. Each slice will have the contrast adjusted before being saved. This is important to avoid different contrasts for different steps.
 
 
 
@@ -40,7 +40,7 @@ Troubleshooting:
 
 3. If you want to change source, target and skipped directories you can do by changing variables 'jpegdir', 'savedir' (in splitt.m) and 'skipdir' (in skip.m).
 
-4. The script is not a piece of art in today programming and may be innacurate in some aspects. It has been created by a beginner and only for the strict purpose of controlling and splitting ~500 pictures. Both processing and moving the rectangles are slow. This is normal because of the high computations needed for all rectangles to move together.
+4. The script is not a piece of art in today programming and may be innacurate in some aspects. It has been created as a GUI to inspect and split ~500 pictures. Moving the rectangles and saving the slices may be slow.
 
 
 ####################################################################

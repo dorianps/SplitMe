@@ -3,7 +3,7 @@ SplitMe
 
 
 A matlab tool to simulate a moving window and create equidistant images to use for cognitive/memory experiments.
-The code was written when I did not have a lot of Matlab knowledge, so may be primitive, but it works.
+The code is a bit primitive, but it works.
 
 ======================================================
 Split pictures with the technique of the moving window.

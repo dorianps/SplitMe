@@ -14,7 +14,7 @@ Instructions:
 1. Unzip the content of the ZIP file.
 2. Put some high resolution images in the "source" folder. Some test images are already in the folder.
 3. Run Matlab and set the current directory where splitme is located.
-4. Write "splitt" on the command line. This will open the GUI with the first picture to split.
+4. Write `splitt` on the command line. This will open the GUI with the first picture to split.
 
 
 How it works:
@@ -36,7 +36,7 @@ At the end you have two options:
 Troubleshooting:  
 1. In case you need to restart the script close the GUI and write "clear all" on the command line. Then "splitt" again. The first command will clear all variables from Matlab and you will loose your work if you are using Matlab for something else.  
   
-2. The script has certain coordinates for positioning the user interface. Most probably they are in the wrong position on your computer. This is normal, you can try to change those yourself inside the splitt.m file.  
+2. The script has certain coordinates for positioning the user interface. Most probably they are in the wrong position on your computer. This is normal, you can try to change those yourself inside the `splitt.m` file.  
   
 3. If you want to change source, target and skipped directories you can do by changing variables 'jpegdir', 'savedir' (in splitt.m) and 'skipdir' (in skip.m).  
   
@@ -46,5 +46,5 @@ Troubleshooting:
 ####################################################################  
 VERY IMPORTANT:  
   
-The script doesn't split the image in steps of 5%. It only splits in steps of 20%. That is, you have 6 images identical to the 6 rectangles you see. In case you need steps of 5%, feel free to edit the scripts. However, don't start to split images if you'll need the 5% steps later. The images you split will need to be splitted again and the job you do will be lost.  
+The script doesn't split the image in steps of 5%. It only splits in steps of 20%. That is, you have 6 images identical to the 6 rectangles you see. In case you need steps of 5%, feel free to edit the script `cutok.m`. However, don't start to split images if you'll need the 5% steps later. The images you split will need to be splitted again and the job you do will be lost.  
 ####################################################################  

@@ -38,7 +38,7 @@ Troubleshooting:
   
 2. The script has certain coordinates for positioning the user interface. Most probably they are in the wrong position on your computer. This is normal, you can try to change those yourself inside the `splitt.m` file.  
   
-3. If you want to change source, target and skipped directories you can do by changing variables 'jpegdir', 'savedir' (in splitt.m) and 'skipdir' (in skip.m).  
+3. If you want to change source, target and skipped directories you can do by changing variables "jpegdir", "savedir" (in `splitt.m`) and variable "skipdir" (in `skip.m`).  
   
 4. The script is not a piece of art in today programming and may be innacurate in some aspects. It has been created as a GUI to inspect and split ~500 pictures. Moving the rectangles and saving the slices may be slow.  
   

@@ -46,5 +46,5 @@ Troubleshooting:
 ####################################################################  
 VERY IMPORTANT:  
   
-The script doesn't split the image in steps of 5%. It only splits in steps of 20%. That is, you have 6 images identical to the 6 rectangles you see. In case you need steps of 5%, feel free to add the core yourself. However, don't start to split images if you'll need the 5% steps later. The images you split will need to be splitted again and the job you do will be lost.  
+The script doesn't split the image in steps of 5%. It only splits in steps of 20%. That is, you have 6 images identical to the 6 rectangles you see. In case you need steps of 5%, feel free to edit the scripts. However, don't start to split images if you'll need the 5% steps later. The images you split will need to be splitted again and the job you do will be lost.  
 ####################################################################  
